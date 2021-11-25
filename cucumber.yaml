@@ -1,0 +1,9 @@
+---
+  default: -p ambiente -p chrome -p json -p pretty
+  ambiente: ENV_TYPE=ambiente_execucao
+  firefox: browser=firefox
+  chrome: browser=chrome
+  headless: browser=headless
+  html: --format html --out=log/report.html
+  json: --format json --out=log/report.json
+  pretty: --format pretty
